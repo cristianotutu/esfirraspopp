@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  padding: 2px 0;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.2s;
+}
+
+h2 {
+  margin-bottom: 32px;
+  padding-left: 8px;
+  border-left: 4px solid #FF1861;
+}
+
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px; 
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 24px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  background-color: #128c7e;
+}
+
+.whatsapp-float img {
+  width: 50px;
+  height: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dark {
+  background-color: #FFD811;
+  color: black;
+}
+
+.dark-link {
+  color: #10A9FF;
+  border-bottom: 1px solid #10A9FF;
+}
+
+.dark-link:hover,
+.dark-link:focus {
+  color: #FF1861;
+  border-bottom: 1px solid #FF1861;
+}
+
+.text-center {
+  text-align: center;
+  border-top: 5px solid #FF1861;
+}
+
+header {
+  padding: 8px 16px;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+header img {
+  width: 80px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header ul li + li {
+  margin-left: 24px;
+}
+
+header a {
+  color: #10A9FF;
+  border-bottom: 1px solid #10A9FF;
+}
+
+header a:hover,
+header a:focus {
+  color: #FF1861;
+  border-bottom: 1px solid #FF1861;
+}
+
+.hero {
+  height: 500px;
+  padding: 24px;
+  background-image: none;
+  background-size:auto;
+  background-position: center 50%;
+  display: flex;
+ 
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide1 {
+  width: 75%;
+}
+
+.slide1 img {
+  width: 90%;
+}
+
+
+.manual-navigation {
+  position: absolute;
+  width: 800px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-btn:not(;:last-child){
+  margin-right: 48px;
+  }
+
+  .manual-btn:hover{
+    background-color: #fff;
+  }
+
+.gallery {
+  padding: 64px 24px 96px;
+}
+
+.gallery h2 {
+  color: #10A9FF;
+}
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  color: #10A9FF;
+}
+
+.gallery-row figure {
+  flex: 1 1 250px;
+}
+
+.gallery-row figure img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.gallery figure figcaption {
+  font-weight: bold;
+}
+
+.history {
+  padding: 50px 24px 0;
+  border-top: 5px solid #FF1861;
+}
+
+.history .container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  border-bottom: 5px solid #FF1861;
+}
+
+.history .container .col {
+  flex:350px;
+}
+
+.history img {
+  width: 50%;
+  display: block;
+}
+
+.history p + p {
+  margin-top: 24px;
+}
+
+ form {
+  background-color: #FFD811;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Estilos para o campo obrigatório */
+form input:required,
+form textarea:required {
+  border-color: #10A9FF;
+}
+
+/* Estilos gerais para texto escuro */
+.dark {
+  color: #0a0a0a;
+}
+
+.dark a {
+  color: #080808;
+}
+
+.dark-link {
+  color: #fff;
+}
+
+.contato{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  color: #10A9FF;
+}
+
+footer {
+  padding: 64px 24px;
+}
+
