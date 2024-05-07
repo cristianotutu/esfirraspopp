@@ -197,7 +197,7 @@ footer {
 /* Estilos para o botão do WhatsApp flutuante */
 .whatsapp-float {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 10px;
+  right: 10px;
   z-index: 100;
 }
