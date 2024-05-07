@@ -90,7 +90,7 @@ header a:focus {
 .hero {
   height: 500px;
   padding: 24px;
-  background-image: url(../images/Esfirras/banner.jpg);
+  background-image: url(../images/Esfirras/banner.jpeg);
   background-size: cover;
   background-position: center 50%;
   display: flex;
